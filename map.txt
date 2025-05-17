@@ -1,0 +1,25 @@
+Create a project for socity Security System, how i want project,include that all points which i give you following.
+Firstly show three buttons  in center
+1)New Guest 2)New Socity Member 3)Already Visit
+and in that interface menue box also i that menue box give i)Socity notice option in that write a notice(who are in socity member database), and fire , emergency alert these optin aslo include, when this menubuttons use then give the appropriate messege on their monbile no.
+* When the user tap on "New Guest" button that time take the information of Guest as following
+1)Guest Full Name 
+2)Guest Phone no.(with validation)
+3)Guest Visit Flat no.
+4)Take time(take autometicallya by system) in this part
+5)Reason for visit
+6)Take Photo(Using system camera)
+7)Submit data
+Once the submit these data then store in Guest database and send this data (who want to meet the guest) on Socity member via message their phone number(Phone no find with the hwlp of flat no).
+* When User tap on "New Socity Member" button then firstly take Socity Comman accsess code, Accsess code is="VD2122", if Accsess code is wrong  then no register and give "Register on New Socity Member" this Message,
+if accsess code is correct then take the information of New Socity Member and take the data following way
+1)Socity member name
+2)Flat no.
+3)Phone no.(with validation)
+4)Give the option for selecting Rented or Own
+5)Mail ID (with validation)
+6)Submit data 
+Once the submit th date then this data Store in Socity database 
+* When user tap on "Already Visit" button then take the Guest name if this guest name available in Guest Database then give the entry in socity, Other waise name is not present in Guest Database then no entry and show message "No entry, Firsty Register on New Guest"
+
+I want this project in Python programing, In Python use GUI using Tkinter, and give the Code and how to execute this program in window and how to create python file step waise 
