@@ -53,3 +53,49 @@ The **Society Security System** is a desktop application developed in **Python**
 
 ## 📁 Folder Structure
 
+SocietySecuritySystem/
+├── assets/
+│ ├── backgrounds/
+│ └── photos/
+├── db/
+│ └── society.db
+├── src/
+│ ├── main.py
+│ ├── guest_registration.py
+│ ├── member_registration.py
+│ ├── alerts.py
+│ ├── notice.py
+│ └── utils/
+│ ├── validation.py
+│ ├── image_handler.py
+│ └── sms_sender.py
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/society-security-system.git
+   cd society-security-system
+
+2.Install dependencies:
+   pip install -r requirements.txt
+
+3.Run the main application:
+  python src/main.py
+
+🔒 Security & Validation
+Email and phone validation during registration
+
+Access code verification before sensitive actions
+
+Logs entry and exit timestamps
+
+👨‍💻 Author
+Dnyanendra Girase
+TY BBA-CA (B2)
+Society Security System Project – 2025
